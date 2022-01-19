@@ -27,7 +27,7 @@ import ViewInbox from './view-inbox';
 
 import { Purchasedhistory } from './purchase-history';
 
-import { SiMicroDotBlog } from 'react-icons/si';
+// import { SiMicroDotBlog } from 'react-icons/si';
 
 import { GrTroubleshoot } from 'react-icons/gr';
 
