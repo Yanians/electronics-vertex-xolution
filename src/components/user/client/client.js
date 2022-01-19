@@ -133,7 +133,7 @@ try{
                           <TargetLinks link={`${url}/request-maintenance`} name="Request Maintenance" icon={<GiGears className="cyan-text tiny" />} />
                           <TargetLinks link={`${url}`} name="Store" icon={<IoStorefrontSharp className="cyan-text tiny" /> } />
                           <TargetLinks link={`${url}/blog-review`} name="Trouble Shooting Discussion" icon={<GrTroubleshoot className="cyan-text tiny"/>} />
-                          <TargetLinks link={`${url}/trouble-discussion`}  name="Blog Review" icon={<SiMicroDotBlog className="cyan-text tiny" /> } />
+                          <TargetLinks link={`${url}/trouble-discussion`}  name="Blog Review" /*icon={<SiMicroDotBlog className="cyan-text tiny" /> }*/ />
                           <TargetLinks link={`${url}/report-an-issuee`} name="Report an Issue" icon={<VscIssues className="cyan-text tiny" />} />
                         </ul>
                          <Card className="z-depth-4">
