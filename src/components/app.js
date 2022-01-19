@@ -239,7 +239,7 @@ useEffect(()=>{
   }
   waiting();
    
-if(url && historyLen === 1){ 
+if(url && historyLen === 1 && onetime.password === ""){ 
    try{
          setTimeout(()=>{
              OnetimeLogin.delete().then((result)=>{
@@ -265,7 +265,7 @@ if(url && historyLen === 1){
       }catch(err){
         console.error('Error encountered during first session history ',err)
       }finally{
-          setPassword("");
+          // setPassword("");
           console.log('password credential cleared!')
       }   
           console.log('history length value is 1 database cleared!')
