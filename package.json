@@ -64,5 +64,8 @@
   "devDependencies": {
     "redux-devtools-extension": "^2.13.9",
     "typescript": "^4.4.3"
+  },
+  "engines":{
+    "node":"v14.x"
   }
 }
