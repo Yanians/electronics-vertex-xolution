@@ -23,10 +23,3 @@ ReactDOM.render(
       </Suspense>
      </Provider>       
 ,el);
-
-// function Main(props){
-   
-
-// }
-
-// Main();
