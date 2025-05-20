@@ -27,6 +27,6 @@
   },
   "homepage": "https://github.com/Yanians/electronics-vertex-xolution#readme",
   "engines":{
-  	"node":"v14.x"
+  	"node":">v14.0.0"
   }
 }
